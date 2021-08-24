@@ -14,3 +14,4 @@ router.register(r'manufacturers', ManufacturerView)
 router.register(r'image', ImageView)
 urlpatterns = []
 urlpatterns += router.urls
+
