@@ -3,3 +3,9 @@
 api/__pycache__/urls.cpython-39.pyc
 django_proto/__pycache__/settings.cpython-39.pyc
 django_proto/__pycache__/urls.cpython-39.pyc
+api/__pycache__/urls.cpython-39.pyc
+api/__pycache__/serializers.cpython-39.pyc
+api/__pycache__/models.cpython-39.pyc
+django_proto/__pycache__/urls.cpython-39.pyc
+django_proto/__pycache__/settings.cpython-39.pyc
+api/migrations/__pycache__/0006_chipmaker_picture.cpython-39.pyc
