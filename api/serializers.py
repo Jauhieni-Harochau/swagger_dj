@@ -43,6 +43,7 @@ class ChipmakerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Chipmaker
         fields = '__all__'
+        depth = 1
 
 
 class GPUSerializer(serializers.ModelSerializer):
@@ -72,6 +73,7 @@ class GraphicsBoardSerializer(serializers.ModelSerializer):
 
 
 class ImageSerializer(serializers.ModelSerializer):
+    file_name = serializers.CharField(source='img.name')
     class Meta:
         model = Image
         fields = '__all__'

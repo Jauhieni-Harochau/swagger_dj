@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api',
     'rest_framework',
+    'django_cleanup.apps.CleanupConfig',
+    "graphene_django"
 ]
 
 MIDDLEWARE = [

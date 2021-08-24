@@ -58,6 +58,7 @@ class Chipmaker(models.Model):
     disbanded_date = models.DateField(**BLANK)
     sold_date = models.DateField(**BLANK)
     owned_by = models.ForeignKey('self', null=True, on_delete=models.CASCADE, related_name='subsidiaries')
+    picture = models.ForeignKey('Image', on_delete=models.DO_NOTHING, null=True)
 
     def __str__(self):
         return self.name
